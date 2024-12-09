@@ -1,0 +1,120 @@
+/* App.css */
+
+/* Global body styles */
+body {
+  font-family: 'Courier New', Courier, monospace; /* Hacker font */
+  background-color: #121212; /* Dark background */
+  color: #33FF33; /* Hacker green text */
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* App container */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  min-height: 100vh;
+}
+
+/* Heading style */
+h1 {
+  color: #33FF33; /* Green heading */
+  font-size: 3em;
+  text-shadow: 0 0 10px #33FF33;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}
+
+/* Add note form */
+.add-note-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.add-note-form input {
+  background-color: #1e1e1e;
+  border: 1px solid #33FF33;
+  color: #33FF33;
+  padding: 10px;
+  font-size: 1.2em;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  width: 300px;
+  outline: none;
+}
+
+.add-note-form input:focus {
+  border-color: #00FF00;
+}
+
+.add-note-form button {
+  background-color: #33FF33;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2em;
+  transition: all 0.3s;
+}
+
+.add-note-form button:hover {
+  background-color: #00FF00;
+  transform: scale(1.1);
+}
+
+/* Note list styles */
+.note-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  max-width: 600px;
+}
+
+.note-item {
+  background-color: #1e1e1e;
+  border: 1px solid #33FF33;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2em;
+}
+
+.note-item button {
+  background-color: red;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.note-item button:hover {
+  background-color: darkred;
+}
+.note-item {
+  background-color: #1e1e1e;
+  border: 1px solid #33FF33;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2em;
+  transition: all 0.3s ease-in-out;
+}
+
+.note-item:hover {
+  transform: scale(1.05);
+  background-color: #333;
+}

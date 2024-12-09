@@ -1,0 +1,37 @@
+
+.note-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.note-item {
+    background-color: #1a1a1a; /* Dark background for each note */
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0, 255, 0, 0.2); /* Green shadow */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+}
+
+.note-item button {
+    background-color: #33FF33; /* Hacker green */
+    border: none;
+    color: black;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.note-item button:hover {
+    background-color: #00cc00; /* Darker green on hover */
+}
+
+.note-item button:focus {
+    outline: none;
+    box-shadow: 0 0 5px #33FF33;
+}

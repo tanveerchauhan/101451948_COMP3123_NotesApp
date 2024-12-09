@@ -1,0 +1,37 @@
+
+.add-note-form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.add-note-form input {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #121212;
+    color: #33FF33;
+    border: 1px solid #33FF33;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+}
+
+.add-note-form input:focus {
+    outline: none;
+    border-color: #00cc00; /* Lighter green when focused */
+}
+
+.add-note-form button {
+    padding: 10px 15px;
+    background-color: #33FF33;
+    border: none;
+    color: black;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-note-form button:hover {
+    background-color: #00cc00; /* Darker green on hover */
+}
